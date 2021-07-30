@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "ts-node": "^10.1.0",
     "ts-patch": "^1.4.1",
     "typescript": "^4.3.5",
     "typescript-transform-paths": "^3.1.0"
