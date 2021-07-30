@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "ts-patch i -s"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-patch": "^1.4.1",
+    "typescript": "^4.3.5",
+    "typescript-transform-paths": "^3.1.0"
+  },
+  "dependencies": {}
+}

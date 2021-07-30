@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "outDir": "./built",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "target": "ESNext",
+    "sourceMap": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@a/*": [
+        "./packages/a/src/*"
+      ]
+    },
+    "plugins": [
+      {
+        "transform": "typescript-transform-paths",
+      },
+      {
+        "transform": "typescript-transform-paths",
+        "afterDeclarations": true
+      }
+    ]
+  }
+}
