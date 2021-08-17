@@ -3,7 +3,7 @@ run `npm install` at root dir.
 
 ## build and run
 1. run `npm run build` at dir **packages/b**
-2. In /built dir, find index2.js and run with node, you will find required path is wrong.
+2. In /built dir, find index2.js and run with node, ~~you will find required path is wrong~~, now it works after update `typescript-transform-paths`.
 
 ## my scene
 Above is not my scene, I just found that problem when test.
